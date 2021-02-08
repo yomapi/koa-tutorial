@@ -1,0 +1,24 @@
+{
+  "name": "koa-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src",
+    "start dev": "nodemon --watch src/ src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
